@@ -6,7 +6,10 @@ import About from './pages/About';
 import {Route, Routes} from 'react-router-dom';
 import Nav from './components/Nav';
 
+import { useState, useEffect } from 'react'
+
 function App() {
+
   return (
     <div className="App">
       <Nav />
